@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(0, 0, 19);
+    color: rgb(192, 192, 188);
+    overflow-x: hidden;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 1vh 2vw;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    list-style: none;
+    margin-right: 2em;
+    font-weight: 500;
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 2vw;
+}
+.hero h1 {
+    margin-bottom: 1em;
+}
+.hero p {
+    margin-bottom: 2em;
+}
+.hero button {
+    width: 10em;
+    height: 3em;
+    border: 2px solid rgb(50, 138, 138);
+    background: transparent;
+    color: rgb(192, 192, 188);
+    cursor: pointer;
+}
+.dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.dots div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.blue { background: blue; }
+.orange { background: orange; }
+.green { background: green; }
+.white { background: white; }
+.skills-section {
+    padding: 5vh 2vw;
+}
+.bio h1 {
+    padding: 1em 0;
+}
+.lang {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lang span {
+    margin: 0.5em;
+    font-size: 12px;
+}
+.additional-content {
+    padding: 5vh 2vw;
+}
+
+.image-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-section .info-cards .card {
+    padding: 1em;
+    margin: 2em;
+}
+.image-section img{
+    height: 50vh;
+    width: 50vw;
+}
+.projects-section {
+    text-align: center;
+}
+.projects-section button {
+    margin: 1em 0;
+    padding: 0.5em 2em;
+    border: 2px solid rgb(50, 138, 138);
+    background: transparent;
+    color: rgb(192, 192, 188);
+    cursor: pointer;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects img {
+    width: 45%;
+    margin: 0.5em;
+}
+.contact-section {
+    text-align: center;
+    padding: 5vh 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section button {
+    padding: 0.5em 2em;
+    width: 10em;
+    height: 5em;
+    border: 2px solid rgb(50, 138, 138);
+    background: transparent;
+    color: rgb(192, 192, 188);
+    cursor: pointer;
+}
